@@ -5,9 +5,12 @@
     <title>Recent Repo Events</title>
   </head>
   <body>
+    <h1>Recent Repo Events</h1>
+    <ul id="events-list"></ul>
+
     <script>
       async function getEventsResponse() {
-        const res = await fetch("/webhook/ui");
+        const res = await fetch("/webhook/ui/data");
         const tasks = await res.json();
         const eventsList = document.getElementById("events-list");
         eventsList.innerHTML = "";
@@ -39,10 +42,8 @@
         });
       }
 
+      document.addEventListener("DOMContentLoaded", getEventsResponse);
       setInterval(getEventsResponse, 15000);
-      window.onload = getEventsResponse;
     </script>
-    <h1>Recent Repo Events</h1>
-    <ul id="events-list"></ul>
   </body>
 </html>
