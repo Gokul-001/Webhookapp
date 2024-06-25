@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recent Repo Events</title>
+  </head>
+  <body>
+    <script>
+      async function getEventsResponse() {
+        const res = await fetch("/webhook/ui");
+        const tasks = await res.json();
+        const eventsList = document.getElementById("events-list");
+        eventsList.innerHTML = "";
+
+        tasks.forEach((task) => {
+          const li = document.createElement("li");
+
+          let message = "";
+          switch (task.action) {
+            case "pushed":
+              message = `"${task.author}" pushed to "${task.to_branch}" on ${task.timestamp}`;
+              break;
+            case "reopened":
+            case "opened":
+              message = `"${task.author}" submitted a pull request from "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              break;
+            case "synchronize":
+              message = `"${task.author}" merged branch "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              break;
+            case "closed":
+              message = `"${task.author}" closed a pull request from "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              break;
+            default:
+              message = `"${task.author}" performed an unknown action on ${task.timestamp}`;
+          }
+
+          li.textContent = message;
+          eventsList.appendChild(li);
+        });
+      }
+
+      setInterval(getEventsResponse, 15000);
+      window.onload = getEventsResponse;
+    </script>
+    <h1>Recent Repo Events</h1>
+    <ul id="events-list"></ul>
+  </body>
+</html>
