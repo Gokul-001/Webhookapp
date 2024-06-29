@@ -1,0 +1,262 @@
+2024-06-29 | 23:44:04 - webhook/receiver -- pushed 
+2024-06-29 | 23:44:04 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:44:06 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:44:17 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:44:24 - webhook/receiver -- opened 
+2024-06-29 | 23:44:24 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:44:28 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:44:44 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:44:58 - webhook/receiver -- closed without merge 
+2024-06-29 | 23:44:58 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:44:59 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:45:05 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:45:16 - webhook/receiver -- merged 
+2024-06-29 | 23:45:16 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:45:18 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:45:33 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:45:49 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:45:51 - webhook/receiver -- synchronize 
+2024-06-29 | 23:45:51 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:45:54 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:46:10 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:46:24 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:46:40 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:46:55 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:47:10 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:47:25 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:47:40 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:47:43 - webhook/receiver -- synchronize 
+2024-06-29 | 23:47:43 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:47:46 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:48:02 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:48:16 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:48:32 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:48:47 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:49:32 - webhook/receiver -- unknown 
+2024-06-29 | 23:49:32 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:49:34 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:49:47 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:49:48 - webhook/receiver -- merged 
+2024-06-29 | 23:49:48 - Database -- Data received and stored in MongoDB  
+2024-06-29 | 23:49:52 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:50:07 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:50:23 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:50:38 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:50:53 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:51:42 - Database -- Database created 
+2024-06-29 | 23:51:42 - app -- App created 
+2024-06-29 | 23:51:42 - app -- App running on port 5000 
+2024-06-29 | 23:51:42 - werkzeug --  * Debugger is active! 
+2024-06-29 | 23:51:44 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:51:48 - webhook/receiver -- merged 
+2024-06-29 | 23:51:52 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:52:07 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:52:22 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:52:38 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:52:53 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:53:08 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:53:12 - Database -- Database created 
+2024-06-29 | 23:53:12 - app -- App created 
+2024-06-29 | 23:53:12 - app -- App running on port 5000 
+2024-06-29 | 23:53:12 - werkzeug --  * Debugger is active! 
+2024-06-29 | 23:53:23 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:53:31 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:53:46 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:54:02 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:54:17 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:54:32 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:54:47 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:59:28 - Database -- Database created 
+2024-06-29 | 23:59:28 - app -- App created 
+2024-06-29 | 23:59:28 - app -- App running on port 5000 
+2024-06-29 | 23:59:29 - Database -- Database created 
+2024-06-29 | 23:59:29 - app -- App created 
+2024-06-29 | 23:59:29 - app -- App running on port 5000 
+2024-06-29 | 23:59:29 - werkzeug --  * Debugger is active! 
+2024-06-29 | 23:59:29 - ui/data -- Retrieving info from DB 
+2024-06-29 | 23:59:45 - webhook/receiver -- merged 
+2024-06-29 | 23:59:45 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:00:54 - webhook/receiver -- merged 
+2024-06-30 | 00:00:54 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:01:53 - webhook/receiver -- closed without merge 
+2024-06-30 | 00:01:53 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:02:31 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:02:35 - webhook/receiver -- closed without merge 
+2024-06-30 | 00:02:35 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:02:37 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:02:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:03:08 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:03:23 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:03:38 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:04:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:05:15 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:05:17 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:05:25 - webhook/receiver -- closed without merge 
+2024-06-30 | 00:05:25 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:05:27 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:05:42 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:05:43 - webhook/receiver -- closed without merge 
+2024-06-30 | 00:05:43 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:05:47 - webhook/receiver -- opened 
+2024-06-30 | 00:05:47 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:05:49 - webhook/receiver -- synchronize 
+2024-06-30 | 00:05:49 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:05:51 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:06:06 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:06:22 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:06:32 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:06:48 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:06:51 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:04 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:14 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:15 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:16 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:16 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:16 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:32 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:36 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:43 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:49 - webhook/receiver -- synchronize 
+2024-06-30 | 00:07:49 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:07:52 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:07:54 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:10 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:11 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:27 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:35 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:43 - webhook/receiver -- synchronize 
+2024-06-30 | 00:08:43 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:08:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:08:59 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:09:03 - webhook/receiver -- synchronize 
+2024-06-30 | 00:09:03 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:04 - webhook/receiver -- synchronize 
+2024-06-30 | 00:09:04 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:14 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:09:30 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:09:32 - webhook/receiver -- merged 
+2024-06-30 | 00:09:32 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:33 - webhook/receiver -- merged 
+2024-06-30 | 00:09:33 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:43 - webhook/receiver -- pushed 
+2024-06-30 | 00:09:43 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:45 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:09:45 - webhook/receiver -- pushed 
+2024-06-30 | 00:09:45 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:09:59 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:10:15 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:10:30 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:10:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:11:00 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:11:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:12:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:13:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:14:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:15:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:16:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:17:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:18:23 - Database -- Database created 
+2024-06-30 | 00:18:23 - app -- App created 
+2024-06-30 | 00:18:23 - app -- App running on port 5000 
+2024-06-30 | 00:18:23 - werkzeug --  * Debugger is active! 
+2024-06-30 | 00:18:35 - webhook/receiver -- pushed 
+2024-06-30 | 00:18:35 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 00:18:43 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:18:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:18:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:18:59 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:19:15 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:19:30 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:19:45 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:20:00 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:20:15 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:20:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:21:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:22:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:23:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:24:19 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:24:22 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:24:38 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:24:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:25:08 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:25:23 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:25:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:26:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:27:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:27:59 - Database -- Database created 
+2024-06-30 | 00:27:59 - app -- App created 
+2024-06-30 | 00:27:59 - app -- App running... 
+2024-06-30 | 00:27:59 - werkzeug --  * Debugger is active! 
+2024-06-30 | 00:28:27 - Database -- Database created 
+2024-06-30 | 00:28:27 - app -- App created 
+2024-06-30 | 00:28:27 - app -- App running... 
+2024-06-30 | 00:28:28 - Database -- Database created 
+2024-06-30 | 00:28:28 - app -- App created 
+2024-06-30 | 00:28:28 - app -- App running... 
+2024-06-30 | 00:28:28 - werkzeug --  * Debugger is active! 
+2024-06-30 | 00:28:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:41:13 - Database -- Database created 
+2024-06-30 | 00:41:13 - app -- App created 
+2024-06-30 | 00:41:13 - waitress -- Serving on http://[::]:5000 
+2024-06-30 | 00:41:13 - waitress -- Serving on http://0.0.0.0:5000 
+2024-06-30 | 00:41:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:41:52 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:42:01 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:42:17 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:42:32 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:42:47 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:02 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:06 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:16 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:22 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:32 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:37 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:47 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:43:52 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:02 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:07 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:17 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:22 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:44:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:46:24 - Database -- Database created 
+2024-06-30 | 00:46:24 - app -- App created 
+2024-06-30 | 00:46:24 - app -- App running... 
+2024-06-30 | 00:46:24 - waitress -- Serving on http://0.0.0.0:5000 
+2024-06-30 | 00:46:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:46:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:07 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:08 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:24 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:39 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:47:54 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:48:09 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:48:24 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:48:39 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:48:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:48:54 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:49:09 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:49:24 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:49:39 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:49:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:49:54 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:50:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:50:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:24 - Database -- Database created 
+2024-06-30 | 00:51:24 - app -- App created 
+2024-06-30 | 00:51:24 - app -- App running... 
+2024-06-30 | 00:51:24 - waitress -- Serving on http://0.0.0.0:5000 
+2024-06-30 | 00:51:40 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:41 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:42 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:44 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:46 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:47 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:47 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:48 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:51:57 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:52:04 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:52:13 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:52:18 - ui/data -- Retrieving info from DB 
+2024-06-30 | 00:52:28 - ui/data -- Retrieving info from DB 

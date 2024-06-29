@@ -2,48 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recent Repo Events</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        color: #0b13b4;
+        margin-top: 20px;
+      }
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      table thead {
+        background-color: #aa3bb8;
+        color: rgb(2, 0, 3);
+      }
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #179ee2;
+        color: rgb(8, 3, 3);
+      }
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      td {
+        border: none;
+      }
+      .loading {
+        text-align: center;
+        font-size: 18px;
+        color: #4caf50;
+      }
+    </style>
   </head>
   <body>
     <h1>Recent Repo Events</h1>
-    <ul id="events-list"></ul>
+    <div id="loader" class="loading">Loading...</div>
+    <table id="events-table" style="display: none">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Author</th>
+          <th>From Branch</th>
+          <th>To Branch</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="events-list"></tbody>
+    </table>
 
     <script>
       async function getEventsResponse() {
         const res = await fetch("/webhook/ui/data");
         const tasks = await res.json();
         const eventsList = document.getElementById("events-list");
+        const loader = document.getElementById("loader");
+        const table = document.getElementById("events-table");
+
         eventsList.innerHTML = "";
 
         tasks.forEach((task) => {
-          const li = document.createElement("li");
+          const row = document.createElement("tr");
 
-          let message = "";
+          let action = "";
           switch (task.action) {
             case "pushed":
-              message = `"${task.author}" pushed to "${task.to_branch}" on ${task.timestamp}`;
+              action = `Pushed from ${task.from_branch} to ${task.to_branch}`;
               break;
             case "reopened":
             case "opened":
-              message = `"${task.author}" submitted a pull request from "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              action = `Submitted a pull request from ${task.from_branch} to ${task.to_branch}`;
               break;
             case "synchronize":
-              message = `"${task.author}" merged branch "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              action = `Synchronized the pull request from ${task.from_branch} to ${task.to_branch}`;
               break;
+            case "merged":
+              action = `Merged from ${task.from_branch} to ${task.to_branch}`;
+              break;
+            case "closed without merge":
             case "closed":
-              message = `"${task.author}" closed a pull request from "${task.from_branch}" to "${task.to_branch}" on ${task.timestamp}`;
+              action = `Closed a pull request from ${task.from_branch} to ${task.to_branch}`;
               break;
             default:
-              message = `"${task.author}" performed an unknown action on ${task.timestamp}`;
+              action = `Performed an unknown action`;
           }
 
-          li.textContent = message;
-          eventsList.appendChild(li);
+          const cells = [
+            action,
+            task.author,
+            task.from_branch,
+            task.to_branch,
+            task.timestamp,
+          ];
+
+          cells.forEach((cellData) => {
+            const cell = document.createElement("td");
+            cell.textContent = cellData;
+            row.appendChild(cell);
+          });
+
+          eventsList.appendChild(row);
         });
+
+        loader.style.display = "none";
+        table.style.display = "table";
       }
 
       document.addEventListener("DOMContentLoaded", getEventsResponse);
-      setInterval(getEventsResponse, 15000);
+      setInterval(getEventsResponse, 15000); // Refresh every 15 seconds
     </script>
   </body>
 </html>
