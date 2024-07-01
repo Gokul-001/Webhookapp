@@ -1,0 +1,43 @@
+2024-06-30 | 21:40:34 - Database -- Database created 
+2024-06-30 | 21:40:34 - app -- App running... 
+2024-06-30 | 21:40:34 - waitress -- Serving on http://127.0.0.1:8080 
+2024-06-30 | 21:40:51 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:40:59 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:00 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:00 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:00 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:16 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:30 - webhook/receiver -- pushed 
+2024-06-30 | 21:41:30 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:41:31 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:34 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:36 - webhook/receiver -- pushed 
+2024-06-30 | 21:41:36 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:41:36 - webhook/receiver -- pushed 
+2024-06-30 | 21:41:36 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:41:38 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:41:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:45:11 - Database -- Database created 
+2024-06-30 | 21:45:11 - app -- App running... 
+2024-06-30 | 21:45:11 - waitress -- Serving on http://127.0.0.1:8080 
+2024-06-30 | 21:45:23 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:45:38 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:45:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:47:05 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:48:05 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:48:48 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:48:51 - webhook/receiver -- pushed 
+2024-06-30 | 21:48:51 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:48:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:49:05 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:49:08 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:49:23 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:49:32 - webhook/receiver -- pushed 
+2024-06-30 | 21:49:32 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:49:38 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:49:48 - webhook/receiver -- pushed 
+2024-06-30 | 21:49:48 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:49:49 - webhook/receiver -- pushed 
+2024-06-30 | 21:49:49 - Database -- Data received and stored in MongoDB  
+2024-06-30 | 21:49:53 - ui/data -- Retrieving info from DB 
+2024-06-30 | 21:50:05 - ui/data -- Retrieving info from DB 

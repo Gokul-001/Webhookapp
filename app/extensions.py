@@ -2,7 +2,7 @@ from app.logcontrol import logger
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
 
-conn="mongodb://localhost:27017/"
+conn="mongodb://mongo:27017/"
 
 client = MongoClient(conn)
 db = client.get_database("data") 
