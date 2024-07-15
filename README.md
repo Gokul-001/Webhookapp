@@ -1,5 +1,5 @@
 # Github Webhook Application
- -  Django-based application to track and store GitHub actions in MongoDB, featuring
+ -  Flask-based application to track and store GitHub actions in MongoDB, featuring
  a real-time UI that updates every 15 seconds and robustly handles GitHub API interactions.
  
  -  Dockerized the application following best production practices, ensuring seamless deployment and consistent
